@@ -8,9 +8,13 @@ public class Main {
         deque.addLast("ma");
         deque.addLast("kota");
         System.out.println(deque.size());
-        System.out.println(deque.removeFirst());
-        System.out.println(deque.removeFirst());
-        System.out.println(deque.removeFirst());
+//        System.out.println(deque.removeFirst());
+//        System.out.println(deque.removeFirst());
+//        System.out.println(deque.removeFirst());
         //System.out.println(deque.removeFirst());
+        System.out.println("test iteracji");
+        for (Object s: deque) {
+            System.out.println(s);
+        }
     }
 }
